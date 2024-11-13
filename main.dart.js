@@ -28952,11 +28952,10 @@ return new A.pp(new A.pC(this.c,this.d,s),"Zingplay login",A.a1t(s,A.a3f(B.Q,s,s
 A.pC.prototype={
 aj(){return new A.Da()}}
 A.Da.prototype={
-T(a){var s=null,r=t.nA
-return new A.qu(new A.w1(B.h1,B.c9,B.eP,B.ba,s,B.tt,s,A.a([A.abL(s,new A.oW(A.aeL(s,s,new A.nz("zp-logo-foreground.png",s,s)),s),s,s,s,s,200),new A.l_(B.aC,s,s,A.a1n("B\u1ea1n c\xf3 th\u1ec3 tr\u1edf v\u1ec1 c\u1ed5ng game Zingplay. ",s),s),A.aeN(A.a([A.a1n("N\u1ebfu ch\u01b0a \u0111\u0103ng nh\u1eadp th\xe0nh c\xf4ng, vui l\xf2ng",s),new A.Ac(new A.XE(this),s,s,s,s,s,s,!1,s,!0,A.a1n("b\u1ea5m v\xe0o \u0111\xe2y",A.re(s,s,s,s,B.te,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),s)],r),B.ni,B.eP)],r),s),s)}}
+T(a){var s=null,r=A.abL(s,new A.oW(A.aeL(s,s,new A.nz("zp-logo-foreground.png",s,s)),s),s,s,s,s,200),q=this.a.e!=="",p=A.a1n(q?"B\u1ea1n c\xf3 th\u1ec3 tr\u1edf v\u1ec1 c\u1ed5ng game Zingplay. ":"B\u1ea1n \u0111\xe3 h\u1ee7y \u0111\u0103ng nh\u1eadp.",s),o=t.nA
+return new A.qu(new A.w1(B.h1,B.c9,B.eP,B.ba,s,B.tt,s,A.a([r,new A.l_(B.aC,s,s,p,s),A.aeN(A.a([A.a1n(q?"N\u1ebfu ch\u01b0a \u0111\u0103ng nh\u1eadp th\xe0nh c\xf4ng, vui l\xf2ng":"\u0110\u1ec3 tr\u1edf v\u1ec1 Zingplay, vui l\xf2ng",s),new A.Ac(new A.XE(this),s,s,s,s,s,s,!1,s,!0,A.a1n("b\u1ea5m v\xe0o \u0111\xe2y",A.re(s,s,s,s,B.te,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),s)],o),B.ni,B.eP)],o),s),s)}}
 A.XE.prototype={
-$0(){var s=this.a.a
-if(s.e!=="")A.a_p(s.c.gi0())},
+$0(){A.a_p(this.a.a.c.gi0())},
 $S:0}
 A.eZ.prototype={
 D(){return"AnimationStatus."+this.b},
